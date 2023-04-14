@@ -176,7 +176,7 @@ class CIFAR10_DataModule(pl.LightningDataModule):
         dataset = self.DATASET(
             self.data_dir,
             train=True,
-            download=False,
+            download=True,
             transform=transf,
             **self.extra_args
         )
@@ -205,7 +205,7 @@ class CIFAR10_DataModule(pl.LightningDataModule):
         dataset = self.DATASET(
             self.data_dir,
             train=True,
-            download=False,
+            download=True,
             transform=transf,
             **self.extra_args
         )
@@ -235,7 +235,7 @@ class CIFAR10_DataModule(pl.LightningDataModule):
         dataset = self.DATASET(
             self.data_dir,
             train=False,
-            download=False,
+            download=True,
             transform=transf,
             **self.extra_args
         )
