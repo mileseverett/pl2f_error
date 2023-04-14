@@ -1,0 +1,1 @@
+python3 src/main.py --general=configs/general/general.yaml --model=configs/models/generated_config.yaml --data=configs/data/cifar10.yaml --strategy=configs/strategy/strategy.yaml

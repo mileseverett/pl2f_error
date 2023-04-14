@@ -1,0 +1,9 @@
+# pytorch_lightning==2.0.0
+class_path: dataloaders.cifar10_dataloader.CIFAR10_DataModule
+init_args:
+  num_classes: 10
+  num_workers: 1
+  val_split: 5000
+  batch_size: 32
+  imgchannels: 3
+  imghw: 32

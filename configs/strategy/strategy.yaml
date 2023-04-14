@@ -1,0 +1,2 @@
+optimizer: Adam
+learning_rate: 0.001
